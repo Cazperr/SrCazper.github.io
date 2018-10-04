@@ -67,14 +67,14 @@ main section p{
 	margin-bottom: 10px;
 }
 
-#derecha{
+aside{
 	display: inline-block;
 	width: 25%;
 	height: 300px;
 	float: right;
 	padding-right: 10px;
 }
-#derecha a{
+aside a{
 	color: #A52A2A;
 	font-weight: bold;
 	padding-left: 100px;
@@ -82,7 +82,7 @@ main section p{
 	margin-top: 10px;
 }
 
-#derecha img{
+aside img{
 	text-align: center;
 	padding-left: 30px;
 	padding-top: 10px;
