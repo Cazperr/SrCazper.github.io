@@ -1,0 +1,99 @@
+body {
+	font-family: 'ABeeZee', sans-serif;
+	font-size: 16px;
+	background-color: #fff0ff;
+}
+header {
+	text-align: center;
+	border: 2px solid #A52A2A;
+	padding: 10px;
+	display: inline-block;
+	width: 70%;
+	float: left;
+	margin-right: 10px;
+	background-color: rgb(67, 71, 79, 0.25);
+	padding-left: 10px;
+}
+
+header img {
+	width: 500px;
+	height: auto;
+}
+nav{
+	display: inline-block;
+	width: 70%;
+	float: left;
+	text-align: center;
+	padding: 10px;
+	border: 2px solid #A52A2A;
+	background-color: rgb(67, 71, 79, 0.25);
+}
+main {
+	display: inline-block;
+	width: 70%;
+	float: left;
+}
+
+nav a{;
+	text-decoration: none;
+	color: #000;
+}
+
+.titulos{
+	color: #000;
+	font-size: 20PX;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	font-weight: bold;
+
+}
+.protagonistas{
+	font-weight: bold;
+	padding: 10px;
+	padding-left: 60px;
+}
+
+main section p{
+	padding-left: 40px;
+	border: 2px solid #A52A2A;
+	padding: 20px 40px;
+	background-color: rgb(67, 71, 79, 0.25);
+	color: #A52A2A;
+	margin-left: 40px;
+	margin-right: 40px;
+	overflow: auto;
+	margin-bottom: 10px;
+}
+
+#derecha{
+	display: inline-block;
+	width: 25%;
+	height: 300px;
+	float: right;
+	padding-right: 10px;
+}
+#derecha a{
+	color: #A52A2A;
+	font-weight: bold;
+	padding-left: 100px;
+	padding-top: 40px;
+	margin-top: 10px;
+}
+
+#derecha img{
+	text-align: center;
+	padding-left: 30px;
+	padding-top: 10px;
+	margin-bottom: 20px;
+}
+footer{
+	display: inline-block;
+	width: 70%;
+	float: left;
+	text-align: center;
+	padding: 0px;
+	padding-top: 10px;
+	padding-left: 20px;
+}
