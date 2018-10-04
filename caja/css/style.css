@@ -1,0 +1,54 @@
+body{
+	font-family: 'News Cycle', sans-serif;
+	font-size: 16px;
+	background-color: #eee;
+}
+header{
+	color: #fff;
+	background-color: #0072b0;
+	border-radius: 0.5em;
+	padding: 1em;
+	margin: 1em;
+}
+.banner{
+	height: 100px;
+	width: 200px;
+	border: 1px solid #0072b0;
+	border-radius: 0.5em;
+}
+
+.gradient{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0072b0+0,26a6c9+48,0072b0+99 */
+	background: #0072b0; /* Old browsers */
+	background: -moz-linear-gradient(top, #0072b0 0%, #26a6c9 48%, #0072b0 99%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #0072b0 0%,#26a6c9 48%,#0072b0 99%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #0072b0 0%,#26a6c9 48%,#0072b0 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0072b0', endColorstr='#0072b0',GradientType=0 ); /* IE6-9 */
+}
+
+main{
+	box-sizing: border-box;
+	float: left;
+	width: calc(70% - 1em);
+	margin-right: 1em;
+	background-color: #fff;
+	border: 1px solid #0072b0;
+	border-radius: 0.5em;
+	padding: 1em;
+
+}
+.lateral{
+	box-sizing: border-box;
+	float: left;
+	width: 30%;
+	background-color: #fff;
+	border: 1px solid #0072b0;
+	border-radius: 0.5em;
+	padding: 2.5em;
+
+}
+
+.contenedor{
+	margin: 0 auto;
+	margin: 3em;
+}
