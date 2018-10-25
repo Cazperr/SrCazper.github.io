@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>layout</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<span class="logo">Contact</span>
+	</header>
+	<nav class="nav-horizontal">
+		<ul>
+			<li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+			<li><a href="blog.html"><i class="fa fa-edit"></i>Blog</a></li>
+			<li><a href="stock.html"><i class="far fa-calendar-alt"></i>Stock</a></li>
+			<li><a href="contact.html"><i class="fas fa-envelope-open"></i>Contact</a></li>
+		</ul>
+	</nav>
+	<section class="front-article">
+		<h2>Formulario de contactos</h2>
+		<div class="clearfix"></div>
+		<form action="">
+			<fieldset>
+				<label for="nombre" class="fa fa-address-book" >Nombre</label>
+				<input type="text" name="nombre" id="nombre" placeholder="Nombre">
+			</fieldset>
+			<fieldset>
+				<label for="apellido" class="fa fa-address-card">Apellido</label>
+				<input type="text" name="apellido" id="apellido" placeholder=" Apellido">
+			</fieldset>	
+			<fieldset>
+				<label for="email" class="fa fa-envelope-open">E-mail</label>
+				<input type="email" name="email" id="email" placeholder=" E-mail" required="">
+			</fieldset>
+			<fieldset>
+				<label for="pais" class="fa fa-globe">Pais</label>
+				<select name="pais" id="pais">
+					<option value="es">Epaña</option>
+					<option value="uk">Jungla</option>
+					<option value="usa">Taiga</option>
+				</select>
+			</fieldset>
+			<fieldset>
+				<form action="#">
+					<h3>Sexo</h3>
+					  <p>
+					    <input type="radio" id="test1" name="radio-group" checked>
+					    <label for="test1">Hombre</label>
+					  </p>
+					  <p>
+					    <input type="radio" id="test2" name="radio-group">
+					    <label for="test2">Mujer</label>
+					  </p>
+				</form>
+			</fieldset>
+			<fieldset>
+				<h3>Observaciones</h3>
+				<div class="talkbubble">
+ 					 <textarea></textarea>
+				</div>
+			</fieldset>
+			<fieldset>
+				<h3>Preferencias</h3>
+					<div>
+					  <input id="box1" type="checkbox" />
+					  <label for="box1">Comida</label>
+					  <input id="box2" type="checkbox" />
+					  <label for="box2">Deporte</label>
+					  <input id="box3" type="checkbox" />
+					  <label for="box3">Nada</label>
+					</div>
+			</fieldset>
+			<input type="submit" name="Enviar">
+		</form>
+		
+	</section>
+	<aside>
+		<h2>SIGUENOS EN TWITTER</h2>
+		<a class="twitter-timeline" data-width="400" data-height="500" data-theme="dark" data-link-color="#FAB81E" href="https://twitter.com/SrCazper?ref_src=twsrc%5Etfw">Tweets by SrCazper</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	</aside>
+	</aside>
+	<div class="clearfix"></div>
+	<footer>
+		
+	</footer>
+</body>
+</html>
